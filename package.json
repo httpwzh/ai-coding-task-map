@@ -3,6 +3,17 @@
   "private": true,
   "version": "0.1.0",
   "type": "module",
+  "exports": {
+    ".": "./dsh-plugin/index.js",
+    "./client": "./dsh-plugin/client.js"
+  },
+  "dsh": {
+    "client": {
+      "platform": "web",
+      "immediately": true,
+      "inject": ["@deepseek-ai/dsh-api-session-controller", "@deepseek-ai/dsh-api-workspace-controller", "@deepseek-ai/dsh-client-ui-conversation"]
+    }
+  },
   "scripts": {
     "dev": "vite",
     "build": "vite build",
