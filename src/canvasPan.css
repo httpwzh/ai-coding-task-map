@@ -1,0 +1,4 @@
+.graph-viewport { overflow: auto; cursor: grab; touch-action: none; }
+.graph-viewport.panning { cursor: grabbing; user-select: none; }
+.graph-viewport .task-card,
+.graph-viewport .canvas-toolbar { cursor: auto; }

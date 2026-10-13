@@ -1,0 +1,24 @@
+@media (max-width: 700px) {
+  .app-shell { min-width: 0; }
+  .topbar { height: auto; min-height: 70px; padding: 12px 16px; flex-wrap: wrap; }
+  .topbar .eyebrow { display: none; }
+  .topbar h1 { font-size: 15px; }
+  .top-actions { width: 100%; min-width: 0; gap: 6px; margin-left: 0; flex-wrap: wrap; justify-content: flex-start; }
+  .readonly { font-size: 10px; }
+  .export-button { padding: 6px 8px; font-size: 10px; }
+  .workspace { display: flex; flex-direction: column; height: auto; width: 100%; min-width: 0; }
+  .session-sidebar { display: none; }
+  .main-panel { width: 100%; min-width: 0; overflow: hidden; }
+  .content-heading { flex-wrap: wrap; padding: 16px; gap: 12px; }
+  .content-heading h2 { font-size: 17px; }
+  .project-overview { width: auto; min-width: 0; grid-template-columns: repeat(2, minmax(0, 1fr)); margin: 0 12px 12px; }
+  .overview-lead { grid-column: 1 / -1; min-width: 0; width: 100%; overflow: hidden; }
+  .overview-metric { min-height: 80px; min-width: 0; width: 100%; overflow: hidden; }
+  .overview-metric:last-child { grid-column: 1 / -1; }
+  .detail-sidebar { border-left: 0; border-top: 1px solid #e7eaf0; }
+  .linear-view { min-height: 240px; width: 100%; min-width: 0; overflow: hidden; }
+  .linear-item { width: auto; max-width: calc(100% - 24px); min-width: 0; overflow: hidden; }
+  .linear-content { min-width: 0; overflow-wrap: anywhere; }
+  .custom-canvas { max-width: none; }
+  .graph-viewport { width: 100%; overflow-x: auto; }
+}
